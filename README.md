@@ -17,12 +17,22 @@ A real-time trading assistant for Polymarket **"Bitcoin Up or Down"** 15-minute 
 
 ## Installation & Quick Start
 
-### 1. Install dependencies
+### 1) Clone the repository
 
 ```bash
-cd PolymarketBTC15mAssistant-main
-npm install
+git clone https://github.com/FrondEnt/PolymarketBTC15mAssistant.git
 ```
+
+Alternative (no git):
+
+- Click the green `<> Code` button on GitHub
+- Choose `Download ZIP`
+- Extract the ZIP
+- Open a terminal in the extracted project folder
+
+Then open a terminal in the project folder.
+
+### 2) Install dependencies
 
 This downloads and installs all required packages. A postinstall script shrinks `node_modules` to reduce disk usage.
 
