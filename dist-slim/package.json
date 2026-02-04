@@ -1,0 +1,27 @@
+{
+  "name": "polyassistent",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "postinstall": "node scripts/shrink-node-modules.js",
+    "start": "node src/index.js",
+    "signal": "node src/get-signal.js",
+    "trade": "node src/trade-cli.js",
+    "trade:up": "node src/trade-cli.js --execute=UP",
+    "trade:down": "node src/trade-cli.js --execute=DOWN",
+    "context": "node src/trading/clawbotContext.js",
+    "clawbot-execute": "node src/clawbot-execute.js",
+    "monitor": "node src/monitor-runner.js",
+    "pack:slim": "node scripts/pack-slim.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "@polymarket/clob-client": "^5.2.1",
+    "ethers": "^5.7.2",
+    "https-proxy-agent": "^7.0.6",
+    "socks-proxy-agent": "^8.0.5",
+    "undici": "^6.21.3",
+    "ws": "^8.18.0"
+  }
+}
