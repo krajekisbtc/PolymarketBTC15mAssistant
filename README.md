@@ -34,6 +34,10 @@ Then open a terminal in the project folder.
 
 ### 2) Install dependencies
 
+```bash
+npm install
+```
+
 This downloads and installs all required packages. A postinstall script shrinks `node_modules` to reduce disk usage.
 
 ### 2. Configure environment
