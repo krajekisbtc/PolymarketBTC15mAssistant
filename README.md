@@ -2,6 +2,12 @@
 
 A real-time trading assistant for Polymarket **"Bitcoin Up or Down"** 15-minute markets. It combines technical analysis, live price feeds, and market data to generate BUY UP / BUY DOWN signals, with optional automated trading via private key wallet.
 
+## Important Notice:
+
+For proper operation, you must correctly configure your environment. In the POLYMARKET_PRIVATE_KEY variable, specify the private key associated with your Polymarket trading account.
+
+Next, to configure the POLYMARKET_FUNDER variable, visit polymarket.com/settings, locate your Funder Address, and assign it to the POLYMARKET_FUNDER variable.
+
 ## Features
 
 - **Live price feeds**: Polymarket WebSocket (Chainlink BTC/USD), on-chain Chainlink (Polygon), Binance spot
