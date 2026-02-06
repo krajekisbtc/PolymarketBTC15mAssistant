@@ -20,7 +20,7 @@ A real-time trading assistant for Polymarket **"Bitcoin Up or Down"** 15-minute 
 ### 1) Clone the repository
 
 ```bash
-https://github.com/krajekisbtc/PolymarketBTC15mAssistant.git
+git clone https://github.com/krajekisbtc/PolymarketBTC15mAssistant.git
 ```
 
 Alternative (no git):
